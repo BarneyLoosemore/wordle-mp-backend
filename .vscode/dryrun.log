@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/barney.loosemore/go/src/wordle-clone-mp-backend'
+go get -d -v github.com/dustin/go-broadcast/...
+go build -o realtime-chat main.go rooms.go template.go
+make: Leaving directory `/Users/barney.loosemore/go/src/wordle-clone-mp-backend'
+ 
